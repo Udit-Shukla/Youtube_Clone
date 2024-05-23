@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(18, 17, 17);
+    color: white;
+    font-size:medium;
+}
+
+hr{
+    
+    margin-top: 0.3rem;
+}
+
+.explore {
+    padding: 0.5rem;
+}
+.explore:hover{
+    background-color: rgb(31 41 55);
+    border-radius: 0.375rem;
+    cursor: pointer;
+    scale:1.1 ;
+}
